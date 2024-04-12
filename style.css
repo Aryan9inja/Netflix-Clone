@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(45, 45, 45);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    min-height: 42rem;
+    max-width: 95rem;
+}
+
+.gradient{
+    min-height: 42rem;
+    width: 95rem;
+    background-image: url(/WebDEV/Vid53_NetflixHTMLcss/Assets/Images/Nav\ BG.jpg);
+    background-position: 60% 80%;
+}
+
+.box{
+    min-height: 42rem;
+    width: 95rem;
+    display: flex;
+    flex-basis: 100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.8) 0,rgb(0,0,0,0) 60%, rgb(0,0,0,0.8) 100%); 
+    position: absolute;
+    z-index: 100;
+}
+
+.small{
+    max-width: 95rem;
+    min-height: 35rem;
+    background-color: black;
+    margin: 0.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.large{
+    max-width: 95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 55rem;
+    background-color: black;
+    margin: 0.5rem 0;
+    gap: 2rem;
+}
+
+.last{
+    max-width: 95rem;
+    min-height: 25rem;
+    background-color: black;
+}
+
+.nav{
+    max-width: 95rem;
+    display: flex;
+    min-height: 2.5rem;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1000;
+    align-items: center;
+    top: 2rem;
+}
+
+.nav img{
+    height: 2.5rem;
+    max-width:  9.25rem;
+}
+
+.i{
+    max-height: 1rem;
+    max-width: 1rem;
+    padding: 0 0.5rem;
+    filter: invert(100%) sepia(100%) saturate(16%) hue-rotate(287deg) brightness(104%) contrast(107%);
+}
+
+.b1{
+    padding: 0.125rem 0;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(0,0,0,0);
+    border: 0.05rem solid gray;
+    border-radius: 0.2rem;
+}
+
+.i1{
+    max-height: 0.8rem;
+    max-width: 0.5rem;
+    padding: 0 0.5rem;
+    filter: invert(100%) sepia(100%) saturate(16%) hue-rotate(287deg) brightness(104%) contrast(107%);
+}
+
+.b2{
+    padding: 0.125rem 0.5rem;
+    font-size: 0.875rem;
+    margin-left: 1rem;
+    color: white;
+    background-color: red;
+    border-color: red;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+}
+
+.H_content{
+    max-width: 95rem;
+    min-height: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+    z-index: 1000;
+    gap: 1.2rem;
+}
+
+.text1{
+    max-width: 95rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+}
+
+.text2{
+    max-width: 95rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+.text3{
+    max-width: 95rem;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 400;
+}
+
+form{
+    max-width: 95rem;
+    flex-basis: 100%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#email{
+    padding: 1rem 1.25rem;
+    background-color: rgb(0,0,0,0.4);
+    border: 0.05rem solid gray;
+    border-radius: 0.2rem;
+    width:  22rem;
+}
+
+::placeholder{
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.Started{
+    background-color: rgb(235, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.Started img{
+    max-height: 1.3rem;
+    max-width: 1.3rem;
+    padding: 0 0.5rem;
+    filter: invert(100%) sepia(100%) saturate(16%) hue-rotate(287deg) brightness(104%) contrast(107%);
+}
+
+.content{
+    display: grid;
+}
+
+.vid{
+    justify-self: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 24.35rem;
+    position: relative;
+    right: 0.2rem;
+    top: 5.2rem;
+}
+
+.photo{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 25rem;
+    justify-self: center;
+    position: relative;
+    z-index: 10;
+}
+
+.rectangle{
+    height: 5rem;
+    width: 18rem;
+    position: relative;
+    z-index: 10;
+    background-color: black;
+    border: 0.05rem solid gray;
+    justify-self: center;
+    align-self:last baseline;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    bottom: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.sphoto{
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+.ts1{
+    color: white;
+    font-weight: 500;
+}
+
+.ts2{
+    color: blue;
+    font-size: 0.875rem;
+}
+
+.textsss{
+    position: relative;
+    bottom: 3.7rem;
+    left: 4.5rem;
+}
+
+.textsss img{
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+    padding: 0 0.5rem;
+    filter: invert(100%) sepia(100%) saturate(16%) hue-rotate(287deg) brightness(104%) contrast(107%);
+    position: relative;
+    left: 10rem;
+    bottom: 2rem;
+}
+
+.vid2{
+    justify-self: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 21.35rem;
+    position: relative;
+    right: 0.2rem;
+    top: 2rem;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 5rem;
+    width: 70rem;
+    background-color: rgb(45, 45, 45);
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    padding: 0 2rem;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.question img{
+    height: 2rem;
+    filter: invert(100%) sepia(100%) saturate(16%) hue-rotate(287deg) brightness(104%) contrast(107%);
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+a{
+    color: rgb(255, 255, 255, 0.7);
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.l1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70rem;
+    height: 2rem;
+}
+
+.l2{
+    height: 10rem;
+    width: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.waste{
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.l3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+    width: 70rem;
+    height: 2rem;
+}
+
+@media screen  and (max-width:1200px){
+    .question{
+        max-width:70rem;
+    }
+    .large{
+        min-width: 80rem ;
+    }
+    .small{
+        flex-direction: column;
+        min-width: 80rem;
+    }
+    .header{
+        min-width: 80rem;
+    }
+    .box{
+        min-width: 80rem;
+    }
+    .last{
+        min-width: 80rem;
+    }
+    .header{
+        
+    }
+}
